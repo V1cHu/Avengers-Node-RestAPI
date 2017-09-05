@@ -4,7 +4,7 @@ var bodyParser = require('body-parser')
 var avengers_original = require('./model/avengers')
 
 
-var port = process.env.port || 3000;
+var port = process.env.PORT || 3000;
 var avengers = JSON.parse(JSON.stringify(avengers_original));
 
 app.use(bodyParser.json());
