@@ -1,0 +1,22 @@
+{
+  "name": "avengers-node-rest",
+  "version": "1.0.0",
+  "description": "A sample node REST service which features characters from The Avengers.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vishnu",
+    "learning-by-doing"
+  ],
+  "author": "Vishnu Ramana J",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  }
+}
